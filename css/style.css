@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6efff;
+    color: #101d3c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2.5rem 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #2f6bff;
+    color: #ffffff;
+    border: 0.125rem solid #1f3ea8;
+}
+
+header p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #1f3ea8;
+    border: 0.125rem solid #1f3ea8;
+    padding: 0.75rem 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.Titulo_pagina {
+    font-size: 2.5rem;
+}
+
+header h5 a { 
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 0.125rem solid #a7b8f7;
+    flex: 1;
+}
+
+main p {
+    margin: 0;
+    font-size: 1.0625rem;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: 0.125rem solid #1f3ea8;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #d9e4ff;
+    color: #0f2c74;
+}
+
+main button {
+    background-color: #1f3ea8;
+    color: #ffffff;
+}
+
+main button:hover {
+    background-color: #274edc;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.375rem;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.125rem;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+h5 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.Nome_aba,
+main h4 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f3ea8;
+    color: #ffffff;
+    padding: 0.875rem;
+    border: 0.125rem solid #0f2c74;
+    text-align: center;
+    font-size: 1.125rem;
+    margin: 0.25rem 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+.Nome_aba:hover,
+main h4 a:hover {
+    background-color: #274edc;
+}
+
+.Dados_formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
